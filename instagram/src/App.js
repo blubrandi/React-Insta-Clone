@@ -1,18 +1,35 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './App.css';
+import dummyData from './dummy-data'
+import PostContainer from './components/PostContainer/PostContainer'
 
-class App extends Component {
+
+import SearchBar from './components/SearchBar/SearchBar'
+
+class App extends React.Component {
+
+  constructor() {
+    super()
+    this.state = {
+      posts: dummyData
+    }
+  }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+        <div>
+          <SearchBar />
+          <div>
+            {this.state.posts.map((post, timestamp)=> {
+              return (
+                <PostContainer post={post} key={timestamp}/>
+              )
+            })}
+            
+          </div>
           
-          
-        </header>
+        </div>
       </div>
     );
   }
