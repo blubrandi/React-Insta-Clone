@@ -1,0 +1,27 @@
+.postContainer {
+    border: 1px solid #DDE0E4;
+    margin-bottom: 20px;
+}
+
+.postContainer img {
+    max-width: 100%;
+}
+
+.userAvatar {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.postUserInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.postUserName {
+    padding-left: 15px;
+    font-weight: bolder;
+}

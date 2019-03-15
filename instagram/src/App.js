@@ -20,7 +20,7 @@ class App extends React.Component {
       <div className="App">
         <div>
           <SearchBar />
-          <div>
+          <div className="postSection">
             {this.state.posts.map((post, timestamp)=> {
               return (
                 <PostContainer post={post} key={timestamp}/>
