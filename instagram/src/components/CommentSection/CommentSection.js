@@ -3,14 +3,10 @@ import React from 'react'
 import './CommentSection.css'
 
 const Comments = props => {
-    console.log('hello')
     return (
         <div className="postComment">
             <div className="postCommentUsername">
-                {props.comment.username}
-            </div>
-            <div className="postCommentText">
-                {props.comment.text}
+                {props.comment.username} <span className="commentText">{props.comment.text}</span>
             </div>
        </div>
     )

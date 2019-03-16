@@ -28,13 +28,14 @@
 }
 
 .fab{
-    font-size: 29px;
+    font-size: 30px;
+    -webkit-text-stroke: 1px white;
 }
 
 .far {
-    font-size: 29px;
+    font-size: 30px;
     padding: 0 15px 0 15px;
-    font-weight: lighter;
+    -webkit-text-stroke: 2px white;
 }
 
 .logo {

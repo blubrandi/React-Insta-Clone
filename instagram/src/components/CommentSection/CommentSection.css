@@ -1,8 +1,8 @@
 .postComment {
     display: flex;
-    padding-left: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 15px;
 }
 
 .postCommentUsername {
@@ -12,3 +12,8 @@
 .postCommentText {
     padding-left: 10px;
 }
+
+.commentText {
+    font-weight: 400;
+}
+
