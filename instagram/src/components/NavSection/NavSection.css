@@ -1,0 +1,47 @@
+.navSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
+
+.brandIcon {
+    border-right: 1px solid #999;
+    padding-right: 20px;
+}
+
+.brandArea .logo {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.brandArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fab{
+    font-size: 29px;
+}
+
+.far {
+    font-size: 29px;
+    padding: 0 15px 0 15px;
+    font-weight: lighter;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.navIcons {
+    display: flex;
+    justify-content: space-around;
+}

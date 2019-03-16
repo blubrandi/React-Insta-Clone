@@ -4,7 +4,9 @@
 }
 
 .postContainer img {
-    max-width: 100%;
+    max-width: 99%;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .userAvatar {

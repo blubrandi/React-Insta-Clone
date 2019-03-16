@@ -1,9 +1,11 @@
 import React from 'react'
 
+import './SearchBar.css'
+
 const SearchBar = props => {
     return(
         <div>
-            <h2>This is the Search Bar</h2>
+            <input type="text" placeholder=" Search"></input>
         </div>
     )
 }

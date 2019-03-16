@@ -1,9 +1,11 @@
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 .postSection {
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
