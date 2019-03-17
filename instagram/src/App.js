@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 
 import './App.css';
 import dummyData from './dummy-data'
@@ -35,6 +36,7 @@ class App extends React.Component {
       </div>
     );
   }
+
 }
 
 export default App;

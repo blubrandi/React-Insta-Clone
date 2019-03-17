@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import './PostContainer.css'
 import Comments from '../CommentSection/CommentSection'
@@ -53,7 +54,17 @@ const PostContainer = props => {
                 </div>
             </div>
           </div>
-    )   
+    )
+
+}
+
+PostContainer.propTypes = {
+  posts: PropTypes.arrayOf(
+    PropTypes.shape({
+      username: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired
+    })
+  )
 }
 
 
