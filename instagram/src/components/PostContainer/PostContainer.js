@@ -67,5 +67,8 @@ PostContainer.propTypes = {
   )
 }
 
+PostContainer.defaultProps = {
+  posts: []
+}
 
 export default PostContainer

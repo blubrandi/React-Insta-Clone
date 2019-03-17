@@ -15,12 +15,16 @@ const Comments = props => {
 
 
 Comments.propTypes = {
-    posts: PropTypes.arrayOf(
+    comments: PropTypes.arrayOf(
       PropTypes.shape({
         username: PropTypes.string.isRequired,
         comment: PropTypes.string.isRequired
       })
     )
+  }
+
+  Comments.defautProps = {
+      comment: []
   }
 
 export default Comments
