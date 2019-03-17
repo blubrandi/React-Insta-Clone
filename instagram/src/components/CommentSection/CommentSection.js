@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import './CommentSection.css'
 
@@ -11,5 +12,15 @@ const Comments = props => {
        </div>
     )
 }
+
+
+Comments.propTypes = {
+    posts: PropTypes.arrayOf(
+      PropTypes.shape({
+        username: PropTypes.string.isRequired,
+        comment: PropTypes.string.isRequired
+      })
+    )
+  }
 
 export default Comments
