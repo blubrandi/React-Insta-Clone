@@ -1,0 +1,83 @@
+.postContainer {
+    border: 1px solid #DDE0E4;
+    margin-bottom: 60px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.postContainer img {
+    max-width: 99%;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.userAvatar {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.postUserInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.postUserName {
+    padding-left: 15px;
+    font-weight: bolder;
+}
+
+.fas {
+    font-size: 30px;
+    padding: 0 10px 0 10px;
+    -webkit-text-stroke: 3px white;
+}
+
+.commentSectionIcons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.commentSection .commentSectionIcons .far {
+    padding: 0 5px 0 5px;
+}
+
+.postLikes {
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.comments {
+    width:95%;
+    margin: 0 auto;
+    border-bottom: 1px solid #E8E8E8;
+    
+}
+
+.addComment {
+    width:95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.addComment input {
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.leftIcons {
+    display: flex;
+}
+

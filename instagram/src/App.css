@@ -1,0 +1,12 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #FAFAFA;
+}
+
+.postSection {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+

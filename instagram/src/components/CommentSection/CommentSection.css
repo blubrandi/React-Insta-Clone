@@ -1,0 +1,19 @@
+.postComment {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.postCommentUsername {
+    font-weight: bold;
+}
+
+.postCommentText {
+    padding-left: 10px;
+}
+
+.commentText {
+    font-weight: 400;
+}
+
