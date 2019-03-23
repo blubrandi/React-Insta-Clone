@@ -16,6 +16,7 @@ class PostsPage extends React.Component {
         this.setState({ posts: dummyData });
       }
       searchPostsHandler = event => {
+          // eslint-disable-next-line
         const posts = this.state.posts.filter(post => {
           if (post.username.includes(event.target.value)) {
             return post;
@@ -27,7 +28,6 @@ class PostsPage extends React.Component {
         return (
           <div className="App">
             <SearchBar
-              searchTerm={this.state.searchTerm}
               searchPosts={this.searchPostsHandler}
             />
             <PostContainer
